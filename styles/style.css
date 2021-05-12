@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+}
+header {
+  height: 90;
+
+  margin: none;
+}
+
+.first_header {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  padding: 5px 55px 2px 49px;
+  justify-content: space-between;
+}
+
+#front img {
+  margin: 0px 5px;
+  height: 24px;
+  cursor: pointer;
+}
+.front_icons:hover {
+  opacity: 50%;
+}
+#rear {
+  padding-top: 4.5px;
+  height: 100%;
+}
+
+#rear ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 0px;
+}
+#rear li {
+  height: 100%;
+  font-size: 12px;
+  font-family: Helvetica;
+  font-weight: normal;
+}
+#rear li.rear_contents {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+#rear li.rear_contents:hover {
+  opacity: 50%;
+}
+/*div.a, => a클래스를 가진것 중에 div태그만
+ div, .a  => div태그혹은 a클래스를 가진것들만
+ .a div => a클래스 밑에 있는 모든 div 태그만
+ .a > div => a클래스 바로 밑에 있는 div태그만
+
+*/
